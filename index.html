@@ -1,41 +1,158 @@
-<!DOCTYPE html>
-<html ng-app="airpub" ng-controller="global">
-  <head ng-controller="meta">
-    <base href="/" />
-    <meta charset="UTF-8">
-    <title ng-bind="title"></title>
-    <meta name="fragment" content="!" />
-    <meta name="description" content="{{description}}">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <!-- dependencies stylesheets and scripts, using default GitHub Page CDN -->
-    <link rel="stylesheet" href="http://static.duoshuo.com/airpub/airpub-dependencies.min.css?v=0.3.2">
-    <script src="http://static.duoshuo.com/airpub/airpub-dependencies.min.js?v=0.3.2"></script>
-    <!-- default theme: chill -->
-    <link rel="stylesheet" href="http://static.duoshuo.com/airpub/themes/chill/0.3.0/css/chill.min.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="http://static.duoshuo.com/airpub/themes/chill/0.3.0/favicon.ico" />
-  </head>
-  <body ng-controller="base" ng-class="state.current.controller">
-    <div ui-view="layout"></div>
-    <!-- airpub configs -->
-    <script>
-      var airpubConfigs = {        
-        name: 'Airpub', // 博客名称
-        description: 'Just another Airpub blog', // 博客描述
-        url: 'http://your-uri', // 博客站点永久链接
-        theme: 'chill/0.3.0', // 当前主题与主题版本（如无版本可省略为：`chill`）
-        themePath: 'http://static.duoshuo.com/airpub/themes', // 博客主题根目录
-        upyun: { // 用于上传图片
-          bucket: 'mybucket', // 又拍云 bucket 配置 (可选)
-          form_api_secret: 'xxxxxx' // 又拍云 form_api_secret (可选)
-        }
-      };
-      var duoshuoQuery = {
-        short_name: 'your_duoshuo_short_name' // 修改成你的多说 short_name
-      };
-    </script>
-    <!-- duoshuo embed js -->
-    <script src="http://static.duoshuo.com/embed.unstable.js"></script> 
-    <!-- airpub angular app -->
-    <script src="http://static.duoshuo.com/airpub/airpub.min.js?v=0.3.2"></script>
-  </body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="zh-tw" http-equiv="Content-Language" />
+<title>PM~~</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="未命名_1.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.auto-style1 {
+	font-family: "Lucida Console";
+	font-size: xx-large;
+}
+.auto-style2 {
+	font-size: x-large;
+}
+.auto-style3 {
+	font-family: "Times New Roman", Times, serif;
+	color: #0000FF;
+}
+.auto-style4 {
+	text-align: left;
+}
+.auto-style5 {
+	color: #0000FF;
+}
+.auto-style6 {
+	color: #00FF00;
+}
+.auto-style7 {
+	color: #FF0000;
+}
+.auto-style8 {
+	color: #800000;
+}
+.auto-style10 {
+	font-size: xx-large;
+}
+</style>
+</head>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/255052/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line"></iframe>
+<body>
+  
+
+
+<form id="form1" runat="server">
+	<div id="masthead" class="auto-style1">
+		<br />
+		P&nbsp; M ~&nbsp; ~&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		
+		
+		        <font size="3">
+		        <label for-"">語言:</label>
+		        </font>
+		        <select id-"DropDownList_Category" name-"DropDownList_Category">
+		            <option value-"1">中文</option>
+		            <option value-"2">English</option>
+		            <option value-"3">日本語</option>
+		            <option value-"4">???</option>
+		        </select>
+		    
+		
+	<div id="container">
+		<div id="top_nav" class="auto-style3">
+			<br />
+<br />
+			<br />
+			<br />
+			<span class="auto-style10">&nbsp;歡&nbsp;&nbsp; 迎&nbsp;&nbsp; 來&nbsp;&nbsp; 
+			到&nbsp;&nbsp; P&nbsp;&nbsp; M&nbsp;&nbsp; ~&nbsp;&nbsp; ~&nbsp;&nbsp; 
+			~&nbsp;&nbsp; ~&nbsp;&nbsp; ~&nbsp;&nbsp; ~&nbsp;&nbsp; ~</span></div>
+		<div id="right_col" class="auto-style4"> 
+		    <h2 align="right">
+		        <font size="5">
+			<span class="auto-style5">
+			    
+			    <form action="result.php" method="post">
+                <strong>輸入帳戶:<input type="text" name="UserName"> 
+                </form>
+			    </strong></span>
+			<asp:TextBox id="TextBox1" runat="server"></asp:TextBox>
+			
+			<span class="auto-style6">
+			    <form action="result.php" method="post">
+			    <strong>輸入密碼:<input type="text" name="UserName">
+			    </form>
+			    </strong></span>
+			<asp:TextBox id="TextBox2" runat="server"></asp:TextBox>
+			<br/>
+			
+			<span class="auto-style7">
+			    <strong>
+			<asp:RadioButton id="RadioButton1" runat="server" />
+			<form>
+			    <input type="button" value="登入帳號">&nbsp;&nbsp;<input type="button" value="忘記密碼?">
+			
+			
+			
+			</strong></span>
+			<span class="auto-style7"><strong>
+			<asp:RadioButton id="RadioButton2" runat="server" />
+			<br />
+			
+		
+			<br /><br/><br/><br/>
+			</font>
+			    <font size="6">
+			<strong>* 新&nbsp;增&nbsp;帳&nbsp;戶&nbsp;申&nbsp;請 *</strong><br /><br/>
+			
+			<span class="auto-style8">
+			    
+			    <form action="result.php" method="post">
+			    <font size:"5">
+			    <strong>申請帳號:<input type="text" name="UserName"><br/>
+			    </form>
+			    </strong></span>
+			<asp:TextBox id="TextBox3" runat="server"></asp:TextBox>
+			
+			<span class="auto-style9">
+			    <form action="result.php" method="post">
+			    <font size:"5">
+			    <strong>輸入密碼:<input type="text" name="UserName"><br/>
+			    </form>
+			    </strong></span>
+			    
+			<asp:TextBox id="TextBox4" runat="server"></asp:TextBox>
+
+			<span class="auto-style9"><form action="result.php" method="post">
+			    
+			    <form action="result.php" method="post">
+			    <font size:"5">
+			    <strong>密碼確認:<input type="text" name="UserName"><br/>
+			    </form>
+			    </strong></span>
+			   
+			<asp:TextBox id="TextBox5" runat="server"></asp:TextBox>
+			</font>
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+		</div>
+		<div id="page_content">
+			<img alt="koreaword" height="233" longdesc="1341472296-3705039327_m.jpg" src="1341472296-3705039327_m.jpg" width="450" /><br />
+			<br />
+			<br />
+		</div>
+	</div>
+	<div id="footer">
+	</div>
+</form>
+
+</body>
+
 </html>
